@@ -1,6 +1,13 @@
 /*
  ESP8266 MQTT Single Relay controller
  Author: Vikash Chauhan
+ 
+ Description: Control common electric roller shutter doors (or similar) 
+ which are normally toggled open/close via a remote key fob.  Using
+ an esp8266 module and a single relay module we can hook this up to the
+ garage door control box (check to see if additional triggers can be added)
+ and send it an 'action' to momentarily set the relay, thus 
+ toggling the door mechanism.
 */
 
 #include <ESP8266WiFi.h>
